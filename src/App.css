@@ -7,6 +7,60 @@
   pointer-events: none;
 }
 
+.table {
+
+  width: 80%;
+  margin: auto;
+  border: 1px solid rebeccapurple;
+  /* border-radius: 10px !important; */
+
+}
+
+.react-upload-feature {
+  width: 60%;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #61dafb;
+  border: 1.5px dashed blue;
+  height: 5rem;
+  cursor: pointer;
+}
+
+.dashed-border {
+  border: 1.5px dashed blue;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  /* background:red; */
+  width: 50%;
+
+  margin: auto;
+  margin-top: 10%;
+}
+
+ul {
+  text-decoration: none;
+  text-transform: none;
+  list-style-type: none;
+}
+
+.list-key-item {
+
+  margin-right: 2rem;
+
+
+}
+
+.list-item {
+
+
+margin: 0.5rem;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
